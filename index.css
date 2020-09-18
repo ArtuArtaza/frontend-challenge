@@ -1,0 +1,68 @@
+* { margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box {
+  padding: 30px;
+  width: 300px;
+  height: 200px;
+  margin: 50px auto 40px;
+  border-radius: 5px;
+  box-shadow: -5px 10px 20px -10px black;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 40px;
+    
+}
+
+.negrita{
+    font-weight: 600;
+}
+
+.text{
+    text-align: center;
+    font-size: 15px;
+}
+
+.Builder {
+   border-top: 5px solid hsl(0, 78%, 62%);
+}
+.Calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.Supervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.Karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+
+.icon {
+    position: relative;
+    left: 240px;
+    top: 60px;
+}
+
+
+@media screen and (min-width:375px) and (max-width:1440px){
+    .flex {
+        flex-direction: row;
+    }
+
+}
